@@ -4,7 +4,7 @@ body {
 
 /* change the URL to a picture of your choice - the higher quality the better! */
 .business-header {
-	height: 250px;
+	height: 270px;
 	background:url(../img/header.png) center center no-repeat;
 	background-size: 90%;
 }
