@@ -1,0 +1,87 @@
+body {
+  background-color: WhiteSmoke;
+}
+hr {
+    width:80%;
+    text-align:center;
+    margin: 30px auto;
+}
+#Logo{
+    margin-left: 20px;
+    width: 60%;
+    max-width: 300px;
+}
+#Up{
+    position: absolute;
+    top: 0px;
+}
+div.frame{
+    margin: 15px auto 25px;
+    display: block;
+    width: 80%;
+    background:YellowGreen;
+    box-shadow: 7px 7px OliveDrab;
+    border-radius: 10px;
+ }
+
+ div.teil{
+    text-align: center;
+    position: relative;
+    width: 70%;
+    margin: auto;
+    font-family: Georgia, serif;
+}
+
+div.anchor{
+    position: absolute;
+    top: 20px;
+}
+
+div#Ausgangslage{
+    text-align: justify;
+}
+
+div#Zielsetzung{
+    text-align: justify;
+}
+
+div#Ergebnisse{
+    text-align: justify;
+}
+
+#Credits{
+    text-align: right;
+    font-size: x-small;
+    padding: 20px 25px;
+}
+.arrow{
+    margin: 5px;
+    padding: 5px;
+    background: OliveDrab;
+    border-radius: 5px;
+    border-color: OliveDrab;
+
+}
+.abb{
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+    div.frame{
+        margin: 15px auto 50px;
+        display: block;
+        width: 95%;
+        background:YellowGreen;
+        box-shadow: 5px 5px OliveDrab;
+        border-radius: 10px;
+     }
+
+     .abb{
+         display: block;
+         margin: 20px auto;
+         width: 90%;
+     }
+
+}

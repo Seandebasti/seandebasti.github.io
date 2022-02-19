@@ -1,0 +1,78 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html lang="de">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="description" content="Masterarbeit, Qualit&auml;tssicherung in Geodateninfrastrukturen">
+   <meta name="keywords" content="Thesis, Qualit&auml;tssicherung, GDI">
+   <meta name="author" content="Sebastian Hennig">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link href="./style.css" rel="stylesheet">
+   <link rel="stylesheet" href="./bootstrap.min.css">
+   <link href="./arrows.css" rel="stylesheet">
+</head>
+<body bgcolor="#FFFFFF" link="#0000FF" vlink="#800080" alink="#FF0000">
+<div class="frame">
+<img id="Logo" src="./logomainz.png" alt="Logo Hochschule Mainz">
+<div id="Up"></div>
+<div id="Title" class="teil">
+    <h2>Abschlussarbeit von Sebastian Hennig</h2>
+    <b>im Master-Studiengang Geoinformatik und Vermessung</b>
+    <p><b>Thema:</b> Qualit&auml;tssicherung in Geodateninfrastrukturen - Stand der Technik
+    <p><b>Betreuer:</b> Prof. Dr. Pascal Neis
+    <p><b>Bearbeitungs-Zeitraum:</b> '20 - '21
+    <br>
+</div>
+<hr>
+<div id="Pox" class="teil">
+    <a href="#Ausgangslage_anchor">
+    <button type="button" class="btn btn-danger btn-arrow-right">Problemstellung</button></a>
+    <a href="#Zielsetzung_anchor">
+    <button type="button" class="btn btn-warning btn-arrow-right">Zielsetzung</button></a>
+    <a href="#Ergebnisse_anchor">
+    <button type="button" class="btn btn-success btn-arrow-right">Ergebnisse</button></a>
+</div>
+<hr id="Ausgangslage_anchor" class="anchor">
+<div id="Ausgangslage" class="teil" >
+    <h2>Problemstellung</h2>
+    <p>Eine Organisation oder der Betreiber einer GDI besitzt eine interne Sicht auf die eigene GDI und kennt die Komplexit&auml;t und Qualit&auml;tsunterschiede innerhalb der eigenen GDI sowie der angebotenen Daten und Dienste. Dagegen hat eine Privatperson sowie ein Mitglied einer anderen Organisation nur eine externe Sicht auf die Komponenten dieser GDI und kann nur anhand bereitgestellter Informationen die Qualit&auml;t sowie Nutzbarkeit beurteilen. So kann beispielsweise die Konformit&auml;t zu nationalen und internationalen Standards, die Verf&uuml;gbarkeit eines Dienstes (Ist der Dienst auch wirklich 24h verf&uuml;gbar?) oder andere qualit&auml;tsbeschreibende Parameter erfasst werden.
+    <p>F&uuml;r diese Form der Qualit&auml;tssicherungen stehen f&uuml;r Geodaten und Geodatendienste Werkzeuge bereit, die sowohl den Betreiber als auch den Nutzer bei eben dieser Qualit&auml;tspr&uuml;fung unterst&uuml;tzen. Diese Werkzeuge k&ouml;nnen als erweiterte Servicefunktionen in die GDI integriert sein, wie es im Falle der GDI-DE Testsuite ist. Diese unterst&uuml;tzt die deutsche Geodateninfrastruktur (GDI-DE) und stellt sicher, dass die einzelnen Beteiligten innerhalb der GDI-DE ihre Daten unter Gew&auml;hrleistung eines gewissen Qualit&auml;tsstandards bereitstellen.
+</div>
+<hr id="Zielsetzung_anchor" class="anchor">
+<div id="Zielsetzung" class="teil">
+    <h2>Zielsetzung</h2>
+    <p>Dabei ist die Testsuite bei weitem nicht das einzige Werkzeug f&uuml;r die Qualit&auml;tspr&uuml;fung von Geodateninfrastrukturen und es fehlt eine systematische Betrachtung und aktuelle &uuml;bersicht &uuml;ber genau diese Werkzeuge. Diese Arbeit setzt sich zum Ziel genau diese fehlende &uuml;bersicht zu erarbeiten und dar&uuml;ber hinaus die verschiedenen Werkzeuge zur Qualit&auml;tssicherung zu vergleichen und hinsichtlich Ihrer Eignung f&uuml;r die Qualit&auml;tssicherung zu bewerten.
+    <p>Diese Werkzeuge k&ouml;nnen Teil der GDI sein oder auch extern zur Verf&uuml;gung stehen und f&uuml;r die Qualit&auml;tssicherung verschiedener Geodateninfrastrukturen oder Dienste genutzt werden. Gerade der erstgenannte Fall unterstreicht, dass f&uuml;r ein Verst&auml;ndnis der Werkzeuge als Voraussetzung ein Verst&auml;ndnis der Architektur einer GDI samt dazugeh&ouml;riger Komponenten notwendig ist. H&auml;ufig lassen sich erst bei der Analyse Kriterien und Indikatoren feststellen, welche notwendig sind, um die Verwendbarkeit der Werkzeuge innerhalb einer GDI zu beurteilen.
+</div>
+<hr id="Ergebnisse_anchor" class="anchor">
+
+<div id="Ergebnisse" class="teil">
+    <h2>Ergebnisse</h2>
+    <p>Als Ergebnis aus der gesamten Untersuchung, zeigt sich erstmal, dass durch die direkte Ver&ouml;ffentlichung von Werkzeugen in einem Wiki und anderen Plattformen eine bedeutende Rolle bei der Qualit&auml;tssicherung spielen. Diese Komponente gibt jedem Interessierten zu Beginn einen Einstieg in die Thematik. Durch die M&ouml;glichkeit der Mitarbeit sind auch immer die Initiatoren gefragt, die Inhalte aktuell zu halten und die Nutzer aktiv zu informieren. Aufgrund der hohen Anzahl solcher Plattformen wird es immer notwendiger diese zu verkn&uuml;pfen.
+    <p>Die Semantik spielt dabei eine gro&szlig;e Rolle, da bei Informationen erstmal egal ist, ob es sich nun um ein Wiki als Ressource oder einen Datendienst handelt. Ohne Publikation und Verteilung der Informationen an die richtige Stelle ist das Wissen weniger wert.
+    <p>F&uuml;r eine Bewertung von Werkzeuge innerhalb der Qualit&auml;tssicherung k&ouml;nnen unterschiedliche Sichten angenommen werden. Zun&auml;chst kann je nach Rolle innerhalb der angesprochenen Interessengruppen, ein Werkzeug einer Aufgabe zugeordnet werden. Deshalb ist es relevant alle Werkzeuge zumindest zu kennen und einordnen zu k&ouml;nnen. Zum aktuellen Zeitpunkt kann davon ausgegangen werden, dass keine &uuml;bersicht von in Verwendung befindlichen Werkzeugen f&uuml;r die Qualit&auml;tssicherung bzw. GDI &ouml;ffentlich existiert.
+    <p>Durch immerhin sechs &uuml;bersichten an m&ouml;glichen Werkzeuge und dem Wissen, dass die n&auml;chste Studie zu Werkzeugen schon in Arbeit ist, zeigt sich, dass alle paar Jahre eine neue Liste dazu kommt.
+    <p>Bei der Suche nach Validatoren f&uuml;r die Bewertung von Qualit&auml;t wurde in der Untersuchung festgestellt, dass einige Werkzeuge kompletter sind, um beim Aufbau einer GDI zu unterst&uuml;tzen. Dennoch lassen sich dieser Werkzeug von denen zur Qualit&auml;tsicherung unterscheiden. Beispielsweise ist die Schemavalidierung in Geonetwork m&ouml;glich, aber mehr nicht. Mit der Anzahl der verf&uuml;gbaren Werkzeuge l&auml;sst sich &uuml;berw&auml;ltigend feststellen , dass es viele Werkzeuge gibt. Innerhalb der ersten Studienphase wurde anhand zweier Validatoren anhand der gleichen Ressource (INSPIRE Validators, GDI-DE Testsuite) getestet.
+    <img id="abb1" src="./abb1.png" alt="Auswahlkriterien f&uuml;r Werkzeuge der Kategorie: Validierung (Sortierung = Priorit&auml;t)" class="abb">
+    <p>Als Methode wurde der Vergleich von Literaturquellen gew&auml;hlt, um &uuml;bersichten mit Werkzeugen zu identifizieren und anschlie&szlig;end die Werkzeuge anhand von Kriterien zu untersuchen. Als erstes Ergebnis ist eine eigene &uuml;bersicht entstanden, welche ca. 20 Werkzeuge enth&auml;lt (Abb. 1 links). F&uuml;r die Validierung von Werkzeugen (Abb. 1 rechts) f&uuml;r die Qualit&auml;tsmerkmale Konformit&auml;t und Dienstqualit&auml;t wurden diese sogenannten Validatoren hinsichtlich ihrer Aktualit&auml;t und somit Verwendbarkeit hin untersucht und anhand von gleichen Testbeispielen (z.B. WMS-Dienst von Verwaltungsgrenzen Berlins) verglichen.
+    <img id="abb2" src="./abb2.png" alt="Schematischer &uuml;berblick der Werkzeuge innerhalb der EU Programme" class="abb">
+    <p>Innerhalb der Untersuchung von immerhin sechs &uuml;bersichten (Zeitraum 2012-2020) lie&szlig;en sich Werkzeuge identifizieren, die nicht nur f&uuml;r ein Modell einer GDI gelten, sondern auch f&uuml;r die Sicht auf die organisatorische Schicht einer GDI relevant sind.
+    <p>Betrachtet man die Entwicklung des f&uuml;r Geodateninfrastrukturen g&uuml;ltigen Interoperabilit&auml;tsrahmen (EIF) dann lassen sich die konzeptionellen &auml;nderungen des EIF beispielsweise auf eine Geodateninfrastruktur &uuml;bertragen.
+    Wie in Abb. 2 dargestellt befinden sich die Werkzeuge als L&ouml;sung innerhalb von Sammlungen, Arbeitspaketen, Plattformen und Programmen.
+    &uuml;berpr&uuml;ft man nun jede Anforderung von jedem Objekt in dieser Hierarchie, so lassen sich zahlreiche Parameter identifizieren, an denen man Qualit&auml;t messen kann.</p>
+    <p>Werkzeuge, wie die GDI-DE Testsuite sind wiederum Instanzen der L&ouml;sungen, welche wie in Abb. 2 abgebildet wiederum Basis f&uuml;r eine weiteren Framework (ETF) bedeuten und z.B. die AdV Testsuite quasi ableiten aber auch integrieren k&ouml;nnten.
+    In Bezug auf Geodateninfrastrukturen, r&auml;umliche Qualit&auml;t zu messen, ist solch ein Framework technisch zu untersuchen, ob auch Parameter anderer Objekte (z.B. Effektivit&auml;t, Offenheit) betrachtet werden. Damit beispielsweise nur ein Werkzeug f&uuml;r eine Aufgabe exisitiert br&auml;uchten Anwender ja nicht drei Werkzeuge, wenn sie die gleiche Funktionalit&auml;t besitzen. Hier kommt es wiederum auf andere Qualit&auml;tsparameter an, wenn es sich z.B. um den Programmcode handelt, der f&uuml;r externe Institutionen ver&ouml;ffentlicht werden k&ouml;nnte.
+    F&uuml;r die Qualit&auml;tssicherung ist es essentiell wichtig, dass bei der Betrachtung von diesen Parametern, die verschiedenen Bedeutungen "Merkmale, Schl&uuml;sselw&ouml;rter, Kriterien oder Identifikatoren" aus den Modellen mit betrachtet werden.</p>
+</div>
+<div id="Credits">
+    Mainz | April 2021 | Sebastian Hennig
+    <a href="#Up">
+    <button type="button" class="arrow">
+        <svg width="16" height="16" fill="white" class="bi bi-arrow-up" alt="arrow up" >
+        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+        </svg>
+    </button></a>
+</div>
+</div>
+</body>
+</html>
